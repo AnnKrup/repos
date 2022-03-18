@@ -2,7 +2,7 @@ import React from "react";
 import "./app.less";
 import {BrowserRouter, Route, Routes, Navigate} from "react-router-dom";
 import Main from "./main/Main";
-import Card from "./main/card/Card";
+import Card from "./card/Card";
 import Error from "./main/Error";
 
 const App = () => {

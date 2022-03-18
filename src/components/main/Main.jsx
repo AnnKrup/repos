@@ -3,7 +3,7 @@ import "./main.less";
 import {getRepos} from "../actions/repos";
 import {useDispatch, useSelector} from "react-redux";
 import {useNavigate} from "react-router-dom";
-import Repo from "./repo/Repo";
+import Repo from "../repo/Repo";
 import {setCurrentPage, setFetchingError} from "../../reducers/reposReducer";
 import {createPages} from "../../utils/pagesCreator";
 

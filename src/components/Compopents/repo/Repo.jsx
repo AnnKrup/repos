@@ -12,8 +12,10 @@ const Repo = ({repo}) => {
                     <div className="repo__stars">Коллчество звезд: {repo.stargazers_count}</div>
                 </div>
                 <br/>
-                <div className="repo__last-commit">Последний commit: {repo.updated_at}</div>
-                <div>Ссылка на репозиторий: {repo.html_url}</div>
+                <div className="repo__last-commit">Последний commit:{repo.updated_at}</div>
+                <div className="repo__link">Ссылка на репозиторий:
+                    <span className="repo__url-link">{repo.html_url}</span>
+                    </div>
             </NavLink>
         </div>
     );

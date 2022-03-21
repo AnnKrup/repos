@@ -1,9 +1,9 @@
 import React from "react";
 import "./app.less";
 import {BrowserRouter, Route, Routes, Navigate} from "react-router-dom";
-import Main from "./main/Main";
-import Card from "./card/Card";
-import Error from "./main/Error";
+import Main from "./Compopents/main/Main";
+import Card from "./Compopents/card/Card";
+import Error from "./Compopents/Error";
 
 const App = () => {
     return (

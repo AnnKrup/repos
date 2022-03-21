@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import "./card.less";
 import {useNavigate, useParams} from "react-router-dom";
-import {getCurrentRepo} from "../actions/repos";
+import {getCurrentRepo} from "../../actions/repos";
 
 const Card = () => {
     const {username, reponame} = useParams();
@@ -24,9 +24,11 @@ const Card = () => {
                         <div className="card__title">Название репозитория: {repo.name}</div>
                         <div>Количество звезд: {repo.stargazers_count}</div>
                         <div>Последний commit: {repo.updated_at}</div>
-                        <div>
+                        <div className="card__link">
                             Ссылка на репозиторий:
-                            <a href={repo.html_url}>{repo.html_url}</a>
+                            <a href={repo.html_url} className="card__url-link">
+                                {repo.html_url}
+                            </a>
                         </div>
                     </div>
                     <div className="card__btn">

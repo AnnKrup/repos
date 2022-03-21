@@ -1,11 +1,14 @@
 import React, {useEffect, useState} from "react";
 import "./main.less";
-import {getRepos} from "../actions/repos";
+import {getRepos} from "../../actions/repos";
 import {useDispatch, useSelector} from "react-redux";
 import {useNavigate} from "react-router-dom";
 import Repo from "../repo/Repo";
-import {setCurrentPage, setFetchingError} from "../../reducers/reposReducer";
-import {createPages} from "../../utils/pagesCreator";
+import {setCurrentPage, setFetchingError} from "../../../reducers/reposReducer";
+import {createPages} from "../../../utils/pagesCreator";
+import Input from "./mainComponents/Input";
+import Pagination from "./mainComponents/Pagination";
+import RepoList from "./mainComponents/RepoList";
 
 const Main = () => {
     const dispatch = useDispatch();
@@ -38,26 +41,9 @@ const Main = () => {
 
     return (
         <div>
-            <div className="search-form">
-                <input type="text"
-                       value={searchValue}
-                       onChange={(event) => setSearchValue(event.target.value)}
-                       placeholder="Найти..."
-                       className="search-form__input"/>
-                <button onClick={() => searchHandler()} className="search-form__btn">ПОИСК</button>
-            </div>
-            {isFetching === false ?
-                <div>  {repos.map(repo => <Repo key={repo.id} repo={repo}/>)} </div>
-                :
-                <div className="loader"></div>
-            }
-            <div className="pagination">
-                {pages.map((page, index) =>
-                    <button key={index}
-                            className={currentPage == page ? "pagination__current-page" : "pagination__page" }
-                            onClick={() => dispatch(setCurrentPage(page))}>{page}</button>
-                )}
-            </div>
+           <Input/>
+            <RepoList/>
+            <Pagination/>
         </div>
     );
 };

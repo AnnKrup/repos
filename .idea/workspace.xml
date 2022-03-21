@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="47f2a965-c6e9-4dd4-8aaa-88720e48dc41" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/card/Card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/card/Card.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/card/card.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/card/card.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/repo/Repo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/repo/Repo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/repo/repo.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/repo/repo.less" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectId" id="24SqB3W84lriDvsAYC618Iv5D0y" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../jj/rr" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet.xml" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Анна\Desktop\проекты\ready\reactReduxApp\src\components\main" />
+      <recent name="C:\Users\Анна\Desktop\проекты\ready\reactReduxApp\src\components" />
+      <recent name="C:\Users\Анна\Desktop\проекты\reactReduxApp\src\components\main" />
+      <recent name="C:\Users\Анна\Desktop\проекты\reactReduxApp\src\components\main\cart" />
+      <recent name="C:\Users\Анна\Desktop\проекты\reactReduxApp" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="47f2a965-c6e9-4dd4-8aaa-88720e48dc41" name="Changes" comment="" />
+      <created>1643634200091</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643634200091</updated>
+      <workItem from="1643634201452" duration="41728000" />
+      <workItem from="1644246997113" duration="9636000" />
+      <workItem from="1644414095548" duration="9669000" />
+      <workItem from="1647609001851" duration="2972000" />
+      <workItem from="1647618800895" duration="1277000" />
+      <workItem from="1647620171366" duration="397000" />
+      <workItem from="1647620589443" duration="19000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
